@@ -19,9 +19,10 @@ rootProject.allprojects {
     }
 }
 
-apply plugin: 'com.android.library'
+apply plugin: 'com.zt.shareextend'
 
 android {
+     namespace = "id.kreasimaju.zeroblock"
     compileSdkVersion 29
 
     defaultConfig {
